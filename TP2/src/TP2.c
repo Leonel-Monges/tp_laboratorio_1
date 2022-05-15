@@ -10,24 +10,14 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "arrayPassenger.h"
+#include "utn.h"
 
-#define LEN_NAME 51
-#define LEN_FLYCODE 10
-
-int main(void) {
-
+int main(void)
+{
 	setbuf(stdout, NULL);
 
-//	int id;
-//	char name[LEN_NAME];
-//	char lastname[LEN_NAME];
-//	float price;
-//	char flycode[LEN_FLYCODE];
-//	int typePassenger;
-//	int statusFlight;
-//	int isEmpty;
-
-	printf(" TP2 en proceso!");
+	mainMenu();
 
 	return EXIT_SUCCESS;
 }
